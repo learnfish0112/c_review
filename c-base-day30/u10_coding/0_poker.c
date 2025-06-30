@@ -115,21 +115,21 @@ void test4()
 
 void test5()
 {
-    //small a straight
+    //small a straight flush
     hand[0][0] = 2;
     hand[0][1] = 'c';
 
     hand[1][0] = 3;
-    hand[1][1] = 'd';
+    hand[1][1] = 'c';
 
     hand[2][0] = 4;
-    hand[2][1] = 's';
+    hand[2][1] = 'c';
 
     hand[3][0] = 5;
-    hand[3][1] = 'h';
+    hand[3][1] = 'c';
 
     hand[4][0] = 12;
-    hand[4][1] = 'd';
+    hand[4][1] = 'c';
     analyze_hand();
     print_result();
 }

@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ERR_RES	stack.c	19;"	d	file:
+NOUSE_FUNC	stack.c	18;"	d	file:
+STACK_H	stack.h	13;"	d
+STACK_SIZE	stack.c	17;"	d	file:
+content	stack.c	/^    int content;$/;"	m	struct:content	file:
+content	stack.c	/^struct  content {$/;"	s	file:
+is_empty	stack.c	/^bool is_empty(void)$/;"	f
+is_full	stack.c	/^bool is_full(void)$/;"	f
+main	stack.c	/^int main(void) {$/;"	f
+make_empty	stack.c	/^void make_empty(void)$/;"	f
+next	stack.c	/^    struct content *next;$/;"	m	struct:content	typeref:struct:content::content	file:
+pop	stack.c	/^int pop(void)$/;"	f
+print_stack	stack.c	/^void print_stack(void) {$/;"	f
+push	stack.c	/^void push(int i)$/;"	f
+terminate	stack.c	/^static void terminate(const char *message)$/;"	f	file:
+test	stack.c	/^void test() {$/;"	f
+test2	stack.c	/^void test2() {$/;"	f
+top	stack.c	/^struct content *top = NULL;$/;"	v	typeref:struct:content

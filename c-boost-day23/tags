@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX_PARTS	inventory.c	18;"	d	file:
+NAME_LEN	inventory.c	17;"	d	file:
+READLINE_H	readline.h	13;"	d
+find_part	inventory.c	/^int find_part(int number)$/;"	f
+insert	inventory.c	/^void insert(void)$/;"	f
+inventory_sz	inventory.c	/^int inventory_sz = 10;$/;"	v
+main	inventory.c	/^int main(void)$/;"	f
+name	inventory.c	/^  char name[NAME_LEN+1];$/;"	m	struct:part	file:
+num_parts	inventory.c	/^int num_parts = 0;   \/* number of parts currently stored *\/$/;"	v
+number	inventory.c	/^  int number;$/;"	m	struct:part	file:
+on_hand	inventory.c	/^  int on_hand;$/;"	m	struct:part	file:
+part	inventory.c	/^struct part {$/;"	s	file:
+print	inventory.c	/^void print(void)$/;"	f
+read_line	readline.c	/^int read_line(char str[], int n)$/;"	f
+search	inventory.c	/^void search(void)$/;"	f
+update	inventory.c	/^void update(void)$/;"	f

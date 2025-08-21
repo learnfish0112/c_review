@@ -1,5 +1,5 @@
 #!/bin/bash
  git add .
- git commit -m "Declaration: static assert"
+ git commit -m "exercise declartion partI"
  git push
  git branch --all 
